@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base{
+    .main-heading {
+        @apply text-4xl text-orange-400 font-bold;
+    }
+
+    .my{
+        @apply text-4xl text-blue-400 font-bold;
+    }
+}
