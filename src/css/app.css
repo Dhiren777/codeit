@@ -1784,6 +1784,10 @@
     --tw-leading: 1;
     line-height: 1;
   }
+  .font-\[600\] {
+    --tw-font-weight: 600;
+    font-weight: 600;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
