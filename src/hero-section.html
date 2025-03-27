@@ -16,13 +16,30 @@
 
 <body>
     <section>
-        <p
-            class="h-[35px] bg-[#FFA500] font-sans font-normal text-base leading-[100%] tracking-normal text-center p-[10px]">
-            Get instant cash back when you enroll courses use Referral Code <span
-                class="font-sans font-bold text-base leading-[100%] tracking-normal">“SCODE257”</span>
-                <i class="fa-solid fa-xmark"></i>
+        <div id="cashback"
+            class="relative h-[35px] bg-[#673AB7] text-zinc-50 font-medium font-sans leading-[100%] tracking-normal items-center flex">
+            <p class="absolute left-100">
+                Get instant cash back when you enroll courses use Referral Code
+                <span
+                    class="font-sans font-extrabold text-yellow-300 underline leading-[100%] tracking-normal">SCODE257</span>
+            </p>
+            <div class="absolute right-25 items-center font-medium border rounded-full px-1 bg-[#E94D1B]">
+                <a href="#" onclick="closeTag()">Close</a>
+                <i class="fa-solid fa-xmark" onclick="closeTag()"></i>
+            </div>
+        </div>
 
-        </p>
+        <script>
+            function closeTag() {
+                document.getElementById("cashback").style.display = "none";
+            }
+        </script>
+
+        <script>
+            function closeTag() {
+                document.getElementById("cashback").style.display = "none";
+            }
+        </script>
 
         <nav class="shadow-md mb-[40px]">
             <div
@@ -64,18 +81,18 @@
                     </p>
 
                     <div class="flex justify-between">
-                        <button
+                        <a href="#"
                             class="flex w-[262.9px] h-[43px] gap-[10px] rounded-lg px-[56px] py-[11px] bg-[#D9D9D9]">
                             <img class="w-[23.97px] h-[20.44px]" src="assets/images/explore.png" alt="explore">
                             <p class="font-sans font-normal leading-[100%] tracking-normal text-center">Explore Courses
                             </p>
-                        </button>
-                        <button
+                        </a>
+                        <a href="#"
                             class="flex w-[262.9px] h-[43px] top-[218px] left-[284.1px] gap-[10px] rounded-lg px-[74px] py-[12px] bg-[#E94D1B]">
                             <p class="font-sans font-normal leading-[100%] tracking-normal text-center text-white">
                                 Enroll Now</p>
                             <img class="w-[13px] h-[16px]" src="assets/images/enroll.png" alt="enroll">
-                        </button>
+                        </a>
                     </div>
 
                 </div>
@@ -119,7 +136,6 @@
 
         </div>
     </section>
-
 
 </body>
 
