@@ -15,123 +15,128 @@
 </head>
 
 <body>
-    <section>
-        <div id="cashback"
-            class="relative h-[35px] bg-[#FF4500] text-white font-sans leading-[100%] tracking-normal items-center flex">
-            <p class="absolute left-100">
-                Get instant cash back when you enroll courses. Use Referral Code
-                <span
-                    class="font-sans font-bold text-[#FFFF00] underline leading-[100%] tracking-normal">SCODE257</span>
-            </p>
-            <div class="absolute right-25 items-center font-medium text-2xl ">
-                <i class="fa-solid fa-xmark cursor-pointer" onclick="closeTag()"></i>
-            </div>
+    <div id="cashback"
+        class="md:relative h-[35px] bg-[#FF4500] text-white font-sans leading-[100%] tracking-normal items-center flex px-[20px] md:mb-4">
+        <p class="md:absolute md:left-100">
+            Get instant cash back when you enroll courses. Use Referral Code
+            <span class="font-sans font-bold text-[#FFFF00] underline leading-[100%] tracking-normal">SCODE257</span>
+        </p>
+        <div class="md:absolute md:right-25 items-center font-medium text-2xl ">
+            <i class="fa-solid fa-xmark cursor-pointer" onclick="closeTag()"></i>
         </div>
+    </div>
 
 
-        <script>
-            function closeTag() {
-                document.getElementById("cashback").style.display = "none";
-            }
-        </script>
+    <script>
+        function closeTag() {
+            document.getElementById("cashback").style.display = "none";
+        }
+    </script>
 
-        <nav class="shadow-md mb-[40px]">
-            <div
-                class="container m-auto h-[54px] top-[39px] left-[80px] hidden md:flex justify-between py-[10px] items-center font-sans text-[#000000]">
+    <nav class="shadow-md mb-[40px]">
+        <div
+            class="container m-auto md:h-[54px] md:top-[39px]  md:left-[80px] md:flex justify-between py-[10px] items-center font-sans text-[#000000] space-y-4">
+
+            <div class="flex justify-between items-center text-2xl md:items-center md:gap-5 ">
                 <a href=""><img class="w-[196px] h-[45px]" src="assets/images/codeit_logo.png" alt="">
                 </a>
-                <a href=""><img class="w-[20px] h-[16px]" src="assets/images/menu.png" alt=""></a>
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
 
-                <div
-                    class=" flex items-center justify-between w-[490px] h-[40px] px-[13px] py-[20px] border rounded-full border-[#808080]">
-                    <p class="font-sans text-[#000000]">Search course by name</p>
-                    <img class="w-[18px] h-[18px]" src="assets/images/search.png" alt="">
-                </div>
+            <div
+                class=" flex items-center justify-between w-[350px] h-[30px] px-4 md:w-[490px] md:h-[40px] md:px-[13px] py-[20px] border rounded-full border-[#808080]">
+                <p class="font-sans text-gray-500">Search course by name</p>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
 
+            <div class="flex justify-between md:gap-6 gap-2">
                 <a href=""> Upcoming Classes</a>
-
-                <div class="flex items-center gap-2">
-                    <a href="">Courses </a>
-                    <img class="w-[8px] h-[8px] " src="assets/images/dropdown.png" alt="">
+                <div>
+                    <a href="">Courses <i class="fa-solid fa-angle-down"></i> </a>
+                    
                 </div>
 
-                <div class="flex bg-gray-300 h-[37px] rounded-[8px] items-center px-[9px] py[16px] gap-2">
-                    <a href="">Student Portal</a>
-                    <img class="w-[20px] h-[14px]" src="assets/images/student_portal.png" alt="">
+                <div class="bg-gray-300 md:h-[37px] rounded-[8px] items-center px-[9px]">
+                    <a href="">Student Portal  <i class="fa-solid fa-graduation-cap"></i></a>
+                  
                 </div>
+
             </div>
-        </nav>
-
-        <div class="container m-auto md:flex justify-between ">
-            <div class="md:order-1">
-                <img class="w-[513px] h-[470px]" src="assets/images/Hero Image.png" alt="hero_section_photo">
-            </div>
-            <div class="w-[557px] h-[261.79px] ">
-                <div class="space-y-5 mb-[36px]">
-                    <p class="font-sans font-normal leading-6 tracking-wide mb-[16px] text-[17.5px]">MODERN SKILLS | EXPERT MENTORS |
-                        INTERACTIVE LEARNING</p>
-                    <p class="font-sans font-semibold text-5xl leading-[48px]">Nepal’s First Affordable IT Course
-                        Platform</p>
-                    <p class="font-sans font-normal mb-[16px] leading-5">Live classes on <span
-                            class="font-sans font-semibold leading-5">Google Meet,</span> free certificates, daily
-                        recorded sessions, and lifetime mentorship & support.
-                    </p>
-
-                    <div class="flex gap-5">
-                        <a href="#"
-                            class="flex w-[250px] h-[43px] gap-[10px] items-center rounded-lg justify-center bg-[#D9D9D9]">
-                            <img class="w-[23.97px] h-[20.44px] items-center" src="assets/images/explore.png" alt="explore">
-                            <p class="font-sans font-normal leading-[100%] tracking-normal text-center">Explore Courses
-                            </p>
-                        </a>
-                        <a href="#"
-                            class="flex w-[250px] h-[43px] top-[218px] left-[284.1px] gap-[10px] items-center justify-center rounded-lg px-[50px] py-[12px] bg-[#E94D1B]">
-                            <p class="font-sans font-normal leading-[100%] tracking-normal text-center text-white">
-                                Enroll Now</p>
-                            <img class="w-[14px] h-[11px]" src="assets/images/arrow.png" alt="enroll">
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="w-[572px] h-[190px] my-[20px]">
-                    <p class="font-sans font-semibold text-[20px] text-[#808080] leading-[100%] tracking-normal mb-4">
-                        Trusted by</p>
-
-                    <div class="flex flex-wrap justify-between items-center mb-2">
-                        <img class="w-[167px] h-[58px] grayscale hover:grayscale-0 transition duration-300"
-                            src="assets/images/koshi_sj.png" alt="koshi_sj">
-
-                        <img class="w-[167px] h-[58px] grayscale hover:grayscale-0 transition duration-300"
-                            src="assets/images/academia.png" alt="academia">
-
-                        <img class="w-[146px] h-[42px] grayscale hover:grayscale-0 transition duration-300"
-                            src="assets/images/export.png" alt="export">
-                    </div>
-
-
-                    <div class="flex flex-wrap justify-between items-center">
-                        <img class="w[64px] h-[64px] grayscale hover:grayscale-0 transition duration-300"
-                            src="assets/images/dharan_sub_metro.png" alt="cct"> <img
-                            class="w[64px] h-[64px] grayscale hover:grayscale-0 transition duration-300"
-                            src="assets/images/cct.png" alt="cct">
-                        <img class="w[64px] h-[64px]  grayscale hover:grayscale-0 transition duration-300"
-                            src="assets/images/Wakecup.png" alt="wakeup">
-                        <img class="w[64px] h-[64px]  grayscale hover:grayscale-0 transition duration-300"
-                            src="assets/images/sion.png" alt="sion">
-                        <img class="w[64px] h-[64px]  grayscale hover:grayscale-0 transition duration-300"
-                            src="assets/images/dharan_campus.png" alt="dharan_campus">
-                        <img class="w[64px] h-[64px]  grayscale hover:grayscale-0 transition duration-300"
-                            src="assets/images/mahendra.png" alt="mahendra">
-                        <img class="w[64px] h-[64px]  grayscale hover:grayscale-0 transition duration-300"
-                            src="assets/images/pathivara.png" alt="pathivara">
-                    </div>
-                </div>
-            </div>
-            
 
         </div>
-    </section>
+    </nav>
+
+   
+    <div class="container m-auto md:flex justify-between ">
+        <div class="md:order-1">
+            <img class="w-[513px] h-[470px]" src="assets/images/Hero Image.png" alt="hero_section_photo">
+        </div>
+        <div class="w-[557px] h-[261.79px] ">
+            <div class="space-y-5 mb-[36px]">
+                <p class="font-sans font-normal leading-6 tracking-wide mb-[16px] text-[17.5px]">MODERN SKILLS | EXPERT MENTORS |
+                    INTERACTIVE LEARNING</p>
+                <p class="font-sans font-semibold text-5xl leading-[48px]">Nepal’s First Affordable IT Course
+                    Platform</p>
+                <p class="font-sans font-normal mb-[16px] leading-5">Live classes on <span
+                        class="font-sans font-semibold leading-5">Google Meet,</span> free certificates, daily
+                    recorded sessions, and lifetime mentorship & support.
+                </p>
+
+                <div class="flex gap-5">
+                    <a href="#"
+                        class="flex w-[250px] h-[43px] gap-[10px] items-center rounded-lg justify-center bg-[#D9D9D9]">
+                        <img class="w-[23.97px] h-[20.44px] items-center" src="assets/images/explore.png" alt="explore">
+                        <p class="font-sans font-normal leading-[100%] tracking-normal text-center">Explore Courses
+                        </p>
+                    </a>
+                    <a href="#"
+                        class="flex w-[250px] h-[43px] top-[218px] left-[284.1px] gap-[10px] items-center justify-center rounded-lg px-[50px] py-[12px] bg-[#E94D1B]">
+                        <p class="font-sans font-normal leading-[100%] tracking-normal text-center text-white">
+                            Enroll Now</p>
+                        <img class="w-[14px] h-[11px]" src="assets/images/arrow.png" alt="enroll">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="w-[572px] h-[190px] my-[20px]">
+                <p class="font-sans font-semibold text-[20px] text-[#808080] leading-[100%] tracking-normal mb-4">
+                    Trusted by</p>
+
+                <div class="flex flex-wrap justify-between items-center mb-2">
+                    <img class="w-[167px] h-[58px] grayscale hover:grayscale-0 transition duration-300"
+                        src="assets/images/koshi_sj.png" alt="koshi_sj">
+
+                    <img class="w-[167px] h-[58px] grayscale hover:grayscale-0 transition duration-300"
+                        src="assets/images/academia.png" alt="academia">
+
+                    <img class="w-[146px] h-[42px] grayscale hover:grayscale-0 transition duration-300"
+                        src="assets/images/export.png" alt="export">
+                </div>
+
+
+                <div class="flex flex-wrap justify-between items-center">
+                    <img class="w[64px] h-[64px] grayscale hover:grayscale-0 transition duration-300"
+                        src="assets/images/dharan_sub_metro.png" alt="cct"> <img
+                        class="w[64px] h-[64px] grayscale hover:grayscale-0 transition duration-300"
+                        src="assets/images/cct.png" alt="cct">
+                    <img class="w[64px] h-[64px]  grayscale hover:grayscale-0 transition duration-300"
+                        src="assets/images/Wakecup.png" alt="wakeup">
+                    <img class="w[64px] h-[64px]  grayscale hover:grayscale-0 transition duration-300"
+                        src="assets/images/sion.png" alt="sion">
+                    <img class="w[64px] h-[64px]  grayscale hover:grayscale-0 transition duration-300"
+                        src="assets/images/dharan_campus.png" alt="dharan_campus">
+                    <img class="w[64px] h-[64px]  grayscale hover:grayscale-0 transition duration-300"
+                        src="assets/images/mahendra.png" alt="mahendra">
+                    <img class="w[64px] h-[64px]  grayscale hover:grayscale-0 transition duration-300"
+                        src="assets/images/pathivara.png" alt="pathivara">
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</section>
 
 </body>
 
