@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Carousel</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+    <style>
+        
+
+        .store-banner {
+            background-color: #b22222;
+            color: white;
+            border-radius: 5px;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/slider-image.avif" class="d-block w-100 max-h-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/slider-image.avif" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/slider-image.avif" class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        </button>
+    </div>
+
+    <div class="mx-1">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="store-banner shadow rounded px-2 py-2">
+                <img src="assets/images/happy.avif" alt="Logo" style="height: 50px;">
+                <p>Welcome to Happy Department Store. At Happy Department Store, we believe in the joy of shopping.
+                    Our friendly staff is always on hand to assist you, ensuring you find exactly what you're looking for.
+                    Our store features an ever-evolving selection of products, keeping up with the latest trends and customer preferences.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="store-banner shadow rounded px-2 py-1">
+                <p style="font-size: 20px; color: orange; font-weight: bold; padding-bottom: 16px;">Contact <span style="color:white">Us</span></p>
+                <div>
+                    <p style="padding-bottom: 5px;"> <i class="bi bi-pen"></i> Edit GPO Box No.6616, Kathmandu, Nepal</p>
+                    <p style="padding-bottom: 5px;"> <i class="bi bi-geo-alt"></i> Putalisadak, Kathmandu, Nepal</p>
+                    <p style="padding-bottom: 5px;"> <i class="bi bi-envelope"></i> Email: info@hdstore.com.np</p>
+                    <p style="padding-bottom: 5px;"> <i class="bi bi-telephone"></i> Phone: +977 98510-01541</p>
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="col-md-4 ">
+            <div class="store-banner shadow rounded px-2 py-1">
+                <img src="assets/images/happy.avif" alt="Logo" style="height: 50px;">
+                <p>Welcome to Happy Department Store. At Happy Department Store, we believe in the joy of shopping.
+                    Our friendly staff is always on hand to assist you, ensuring you find exactly what you're looking for.
+                    Our store features an ever-evolving selection of products, keeping up with the latest trends and customer preferences.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
