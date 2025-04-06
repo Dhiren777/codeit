@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Carousel</title>
+
+    <!-- Bootstrap CSS (v5 or later) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .carousel-img {
+            height: 450px;
+            object-fit: cover;
+        }
+
+        .container {
+            margin-top: 50px;
+            display: flex;
+            gap: 50px;
+            /* background-color: aqua; */
+
+        }
+
+        h1 {
+            font-family: "DM Serif Text", serif;
+            font-size: 42px;
+            font-weight: bold;
+            line-height: 49px;
+            color: rgb(10, 120, 183);
+            margin-bottom: 20px;
+        }
+
+        p{
+            font-family: "Albert Sans", sans-serif;
+            font-weight: 400;
+            line-height: 27px;
+            color: rgb(72, 72, 72);
+        }
+
+        li{
+            font-family: "Albert Sans", sans-serif;
+            font-weight: 400;
+            line-height: 24px;
+            color: rgb(0, 0, 0);
+        }
+
+        .rent-detail{
+            margin-bottom: 20px;
+        }
+        
+        .rent-detail p {
+              margin: 5px 0;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/rentdetailimage1.avif" class="d-block w-100 carousel-img" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/rentdetailimage2.avif" class="d-block w-100 carousel-img" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/rentdetailimage3.avif" class="d-block w-100 carousel-img" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div>
+            <h1>Rent Details</h1>
+            <div class="rent-detail">
+                <p>House Type: <strong>Building</strong></p>
+                <p>Rent Type: <strong>Flat</strong></p>
+                <p>Quantity: <strong>Two Bed Room, Kitchen, TWO Shutter</strong></p>
+                <p>Rent Rate: <strong>NRs.15000/-</strong></p>
+                <p>Location: <strong>Dharan-16, Sunsari</strong></p>
+                <p>Contact: <strong> 025-579269</strong></p>
+            </div>
+
+            <div>
+                <h4>Facilities:</h4>
+                    <li>Fan, wiring, and lighting</li>
+                    <li>Well-maintained toilet and bathroom</li>
+                    <li>Bed, table, chair, or other furniture</li>
+                    <li>Separate kitchen arrangement</li>
+                    <li>Parking for vehicles and bikes</li>
+                    <li>Reliable water and electricity supply</li>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
