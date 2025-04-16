@@ -422,14 +422,8 @@
   .mx-2 {
     margin-inline: calc(var(--spacing) * 2);
   }
-  .mx-4 {
-    margin-inline: calc(var(--spacing) * 4);
-  }
   .mx-auto {
     margin-inline: auto;
-  }
-  .my-4 {
-    margin-block: calc(var(--spacing) * 4);
   }
   .my-5 {
     margin-block: calc(var(--spacing) * 5);
@@ -472,6 +466,9 @@
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
+  }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
   }
   .mb-\[16px\] {
     margin-bottom: 16px;
@@ -1852,6 +1849,9 @@
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
+  }
   .py-\[4px\] {
     padding-block: 4px;
   }
@@ -2768,6 +2768,11 @@
       margin-bottom: calc(var(--spacing) * 4);
     }
   }
+  .md\:mb-10 {
+    @media (width >= 48rem) {
+      margin-bottom: calc(var(--spacing) * 10);
+    }
+  }
   .md\:mb-\[16px\] {
     @media (width >= 48rem) {
       margin-bottom: 16px;
@@ -2801,6 +2806,11 @@
   .md\:h-\[329px\] {
     @media (width >= 48rem) {
       height: 329px;
+    }
+  }
+  .md\:w-1\/2 {
+    @media (width >= 48rem) {
+      width: calc(1/2 * 100%);
     }
   }
   .md\:w-\[200px\] {
@@ -2853,54 +2863,9 @@
       justify-content: flex-start;
     }
   }
-  .md\:gap-\[1px\] {
+  .md\:gap-20 {
     @media (width >= 48rem) {
-      gap: 1px;
-    }
-  }
-  .md\:gap-\[10px\] {
-    @media (width >= 48rem) {
-      gap: 10px;
-    }
-  }
-  .md\:gap-\[17px\] {
-    @media (width >= 48rem) {
-      gap: 17px;
-    }
-  }
-  .md\:gap-\[18px\] {
-    @media (width >= 48rem) {
-      gap: 18px;
-    }
-  }
-  .md\:gap-\[150px\] {
-    @media (width >= 48rem) {
-      gap: 150px;
-    }
-  }
-  .md\:gap-\[170px\] {
-    @media (width >= 48rem) {
-      gap: 170px;
-    }
-  }
-  .md\:gap-\[175px\] {
-    @media (width >= 48rem) {
-      gap: 175px;
-    }
-  }
-  .md\:gap-\[176px\] {
-    @media (width >= 48rem) {
-      gap: 176px;
-    }
-  }
-  .md\:gap-\[177px\] {
-    @media (width >= 48rem) {
-      gap: 177px;
-    }
-  }
-  .md\:gap-\[180px\] {
-    @media (width >= 48rem) {
-      gap: 180px;
+      gap: calc(var(--spacing) * 20);
     }
   }
   .md\:gap-\[190px\] {
@@ -2908,19 +2873,19 @@
       gap: 190px;
     }
   }
-  .md\:gap-\[1750px\] {
-    @media (width >= 48rem) {
-      gap: 1750px;
-    }
-  }
   .md\:px-20 {
     @media (width >= 48rem) {
       padding-inline: calc(var(--spacing) * 20);
     }
   }
-  .md\:py-8 {
+  .md\:py-5 {
     @media (width >= 48rem) {
-      padding-block: calc(var(--spacing) * 8);
+      padding-block: calc(var(--spacing) * 5);
+    }
+  }
+  .md\:py-20 {
+    @media (width >= 48rem) {
+      padding-block: calc(var(--spacing) * 20);
     }
   }
   .md\:pl-6 {
